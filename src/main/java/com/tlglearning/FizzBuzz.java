@@ -5,8 +5,6 @@ import java.util.Set;
 
 public enum FizzBuzz {
   FIZZ, BUZZ;
-//  public static final String FIZZ_RESULT = "fizz"; when it is a class vs an enum
-//  public static final String BUZZ_RESULT = "buzz";
 
   public static Set<FizzBuzz> valueOf(int num) {
     Set<FizzBuzz> result = EnumSet.noneOf(FizzBuzz.class);
